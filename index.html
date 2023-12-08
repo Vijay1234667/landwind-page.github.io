@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-center pt-3">
+                    <img class="p-2" src="img/logo.svg" alt="">
+                    <h2 class="fs-4">Landwind</h2>
+                </div>
+                <button class=" hamber navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#company">Company</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="btn btn-group">
+                        <button class="btn btn-outline-secondary btn-sm"> <i
+                                class="fa-regular fa-star"></i>Star</button>
+                        <button class="btn btn-outline-secondary btn-sm">440</button>
+                    </div>
+                    <button class="btn nav_download text-white">Download</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- hero-section-->
+    <main role="main">
+        <section class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 my-auto">
+                        <h1 id="abcd">Building digital
+                            products & brands.</h1>
+                        <p class=" lead pt-2">This free and open-source landing page template was built using the
+                            utility
+                            classes from
+                            Tailwind
+                            CSS and based on the components from the Flowbite Library and the Blocks System.</p>
+                        <button class="btn btn-outline-secondary mt-3 p-2 "><i class="fa-brands fa-github p-2"></i>View
+                            on
+                            GitHub</button>
+                        <button class="btn btn-outline-secondary mt-3 p-2"><i class="fa-brands fa-figma p-2"></i>Get
+                            Figma
+                            file</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/hero.png" alt="hero">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chart-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6  mx-auto">
+                        <h2>Work with tools you already use</h2>
+                        <p>Deliver great service experiences fast - without the complexity of traditional ITSM
+                            solutions. Accelerate critical development work, eliminate toil, and deploy changes with
+                            ease.</p>
+                        <hr>
+                        <div class="icons_chart">
+                            <h6><i class="fa-solid fa-circle-check px-2 "></i>Continuous integration and deployment</h6>
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Development workflow</h6>
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Knowledge management</h6>
+                        </div>
+                        <p class="pt-3">Deliver great service experiences fast - without the complexity of traditional
+                            ITSM
+                            solutions.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/feature-1.png" alt="">
+                    </div>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="img/feature-2.png" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>We invest in the world’s potential</h2>
+                        <p class="pt-3">Deliver great service experiences fast - without the complexity of traditional
+                            ITSM
+                            solutions. Accelerate critical development work, eliminate toil, and deploy changes with
+                            ease.</p>
+                        <hr>
+                        <div class="invest_icons">
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Dynamic reports and dashboards</h6>
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Templates for everyone</h6>
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Development workflow</h6>
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Limitless business automation</h6>
+                            <h6><i class="fa-solid fa-circle-check px-2"></i>Knowledge management</h6>
+                        </div>
+                        <p>Deliver great service experiences fast - without the complexity of traditional ITSM
+                            solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- user-section -->
+        <div class="user-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="Trusted_Worldwide">Trusted Worldwide</p>
+                        <h2>Trusted by over 600 million users and 10,000 teams</h2>
+                        <p class="lead">Our rigorous security and compliance standards are at the heart of all we
+                            do. We
+                            work
+                            tirelessly to protect you and your customers.</p>
+                        <hr>
+                        <div>
+                            <a class="nav-link" href="#">Explore Legality Guide <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></a>
+                            <a class="nav-link" href="#">Visit the Trust Center <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col">
+                                <i class="fa-solid fa-layer-group "></i>
+                                <h3>99.99% uptime</h3>
+                                <p>For Landwind, with zero maintenance downtime</p>
+                            </div>
+                            <div class="col">
+                                <i class="fa-solid fa-user-group"></i>
+                                <h3>600M+ Users</h3>
+                                <p>Trusted by over 600 milion users around the world</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col">
+                                <i class="fa-solid fa-earth-oceania"></i>
+                                <h3>100+ countries</h3>
+                                <p>Have used Landwind to create functional websites</p>
+                            </div>
+                            <div class="col">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <h3>5+ Million</h3>
+                                <p>Transactions per day</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Micheal-Gough-section -->
+        <section class="Micheal-Gough-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 m-auto">
+                        <div class="text-center fs-1">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <h5 class="fs-5">"Landwind is just awesome. It contains tons of predesigned components
+                                and
+                                pages starting from
+                                login screen to complex dashboard. Perfect choice for your next SaaS application."
+                            </h5>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img class="img-fluid" src="img/michael-gouch.png" width="20px" alt="">
+                            <h6>Micheal Gough</h6>
+                            <p>CEO at Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- doller-section -->
+        <section class="card-top pt-5">
+            <div class="container">
+                <div>
+                    <h2 class="text-center">Designed for business teams like yours</h2>
+                    <p class="lead text-center pb-5">Here at Landwind we focus on markets where technology,
+                        innovation,
+                        and capital can
+                        unlock
+                        long-term value and drive economic growth.</p>
+                </div>
+            </div>
+        </section>
+        <!--card-section  -->
+        <section class="card-section ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card-body border  shadow ">
+                            <h5>Starter</h5>
+                            <p class="lead text-center">Best option for personal use & for your next project.</p>
+                            <div>
+                                <h2 class="text-center"><i class="fa-solid fa-dollar-sign pt-3 pb-4"></i>29
+                                    <sub>/month</sub>
+                                </h2>
+                            </div>
+                            <div class="card-icons">
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Individual configuration
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>No setup, or hidden fees
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Team size: <b>1
+                                        developer</b>
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Premium support: <b>6
+                                        months</b> </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Free updates: <b>6
+                                        months</b>
+                                </p>
+                            </div>
+                            <div class="card-button">
+                                <button class="btn text-white mb-4 mt-3 p-2">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card-body border  shadow">
+                            <h5>Company</h5>
+                            <p class="lead text-center">Relevant for multiple users, extended & premium support.</p>
+                            <div>
+                                <h2 class="text-center"><i
+                                        class="fa-solid fa-dollar-sign pt-3 pb-4"></i>99<sub>/month</sub> </h2>
+                            </div>
+                            <div class="card-icons">
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Individual configuration
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>No setup, or hidden fees
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Team size: <b>10
+                                        developers</b> </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Premium support: <b>24
+                                        months</b> </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Free updates: <b>24
+                                        months</b> </p>
+                            </div>
+                            <div class="card-button">
+                                <button class="btn text-white mb-4 mt-3 p-2">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card-body shadow">
+                            <h5>Enterprise</h5>
+                            <p class="lead text-center ">Best for large scale uses and extended redistribution rights.</p>
+                            <div>
+                                <h2 class="text-center"><i class="fa-solid fa-dollar-sign pt-3 pb-4"></i>
+                                    499<sub>/month</sub></h2>
+                            </div>
+                            <div class="card-icons">
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Individual configuration
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>No setup, or hidden fees
+                                </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Team size: <b>100+
+                                        developers</b> </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Premium support: <b>36
+                                        months</b> </p>
+                                <p><i class="fa-solid fa-check text-success fs-5 px-2"></i>Free updates: <b>36
+                                        months</b> </p>
+                            </div>
+                            <div class="card-button">
+                                <button class="btn text-white mb-4 mt-3 p-2 ">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        </section>
+        <!-- question-section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="col-lg-10 text-center m-auto">
+                    <h1 class="text-center mb-4">FAQ</h1>
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    <i><b>1. How Do I Become an Apprentice Carpenter?</b></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><em>Research what it takes to become an apprentice
+                                        carpenter. Learn about the types of training available, who offers
+                                        apprenticeships and the level of competition for apprenticeship positions to
+                                        find out if this is the career for you.</em></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <i><b>2. Master Carpenter: Education and Career Facts</b></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><em>Learn about available training programs in carpentry and
+                                        the topics taught in them. Get information about career outlook and salary data
+                                        for carpenters.</em></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <i><b> 3. Master Plumber: Salary and Career Facts</b></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><em>As a master plumber, you will be qualified to install
+                                        and repair all aspects of plumbing systems. You may also manage a team of
+                                        plumbers and train individuals new to the trade. Explore the training and
+                                        licensure process to becoming a master...</em></div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    <i><b> 4. What Are the Educational Requirements for a Cabinet Maker Career?</b></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><em>No, you don't need to provide any equipment or products.
+                                        Our beauty professionals will arrive at your doorstep fully equipped with all
+                                        the necessary tools, products, and supplies required for your chosen beauty
+                                        treatment. You can sit back, relax, and enjoy the pampering experience.</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                    aria-controls="flush-collapseFive">
+                                    <i><b> 5. AWhat Courses Are Offered at Cabinet-Making Schools?</b></i>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><em>Cabinet makers use power and hand tools to craft
+                                        consumer goods from timber. While there are no formal educational requirements
+                                        for a career as a cabinet maker, it generally takes at least two years of
+                                        on-the-job training to acquire the necessary....</em></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- free-trial-section -->
+        <section class="free-trial-section">
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="start-free text-center">
+                        <h2 class="pt-4">Start your free trial today</h2>
+                        <p class="lead  pt-1 fs-5">Try Landwind Platform for 30 days. No credit card required.</p>
+                        <button class="btn">free trail for 30 days</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer-section -->
+        <footer class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h6>Company</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Brand Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <h6>HELP CENTER</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Discord Server</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Twitter</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Facebook</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6>LEGAL</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Licensing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Terms</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6>COMPANY</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Careers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Brand Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h6>Download</h6>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">iOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Android</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Windows</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">MacOs</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <section class="copyright-section">
+                <div class="container">
+                    <div class="text-center">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="img/logo.svg" alt="">
+                            <h2>Landwind</h2>
+                        </div>
+                        <p class="pb-1 pt-1 text-dark">© 2021-2022 Landwind™. All Rights Reserved. Built with Flowbite
+                            and Tailwind CSS.</p>
+                    </div>
+                    <div class="footer-icons text-center">
+                        <i class="fa-brands fa-facebook fs-4 text-info"></i>
+                        <i class="fa-brands fa-twitter fs-4 text-success"></i>
+                        <i class="fa-brands fa-instagram fs-4 text-danger"></i>
+                        <i class="fa-brands fa-github fs-4 "></i>
+                        <i class="fa-brands fa-dribbble fs-4 text-primary"></i>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    
+<script>
+</script>
+
+    </main>
+    <script src="js/bootstrap.bundle.js">
+    </script>
+</body>
+
+</html>
